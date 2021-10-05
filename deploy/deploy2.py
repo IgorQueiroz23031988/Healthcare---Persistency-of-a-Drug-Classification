@@ -292,7 +292,7 @@ st.write('Awaiting CSV file to be uploaded. Currently using example input parame
 st.write(df)
 
 # Reads in saved classification model
-load_clf = pickle.load(open('model/model_classification.pkl', 'rb'))
+load_clf = pickle.load(open('model_classification.pkl', 'rb'))
 
 # Apply model to make predictions
 prediction = load_clf.predict(df)
