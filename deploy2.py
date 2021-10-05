@@ -207,7 +207,7 @@ def user_input_features():
 input_df = user_input_features()
 
 # Feature Engineering
-persistency_raw = pd.read_csv('https://raw.githubusercontent.com/IgorQueiroz23031988/Healthcare-Persistency-of-a-Drug-Classification/main/deploy/healthcare_dataset.csv')
+persistency_raw = pd.read_csv('https://raw.githubusercontent.com/IgorQueiroz23031988/Healthcare-Persistency-of-a-Drug-Classification/main/healthcare_dataset.csv')
 # Replacing all values 'Y' (Yes) and 'N' (No) for 1 (Yes) and 0 (No), of all categorical attributes Concomitancy and Comorbidity
 data = persistency_raw.iloc[:, 25:49].replace('Y', 1).replace('N', 0)
 
