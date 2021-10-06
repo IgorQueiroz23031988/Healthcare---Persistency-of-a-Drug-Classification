@@ -115,7 +115,7 @@ Solution adopted to generate business insights and create a ML classification mo
 
 * Business Performance;
 
-     1º - Accuracy.
+             1º - Accuracy.
 
      2º - Confusion Matrix & Classification Report.
 
