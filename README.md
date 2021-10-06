@@ -247,9 +247,9 @@ This task is done at the WebApp "Persistency of a Drug Classification ML WebApp"
 ## 9. Next Steps.
 
 * Business User Model Workshop;
-* 
+
 * Collect Usability Feedback;
-* 
+
 * Increase Model Accuracy by 10%.
 
 
