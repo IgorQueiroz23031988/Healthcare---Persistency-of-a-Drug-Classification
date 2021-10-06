@@ -1,4 +1,4 @@
-# Healthcare - Persistency of a DRug - Classification
+# Healthcare - Persistency of a Drug - Classification
 Machine Learning classification model to classify if futures patients will take the drugs prescribed by the doctor during the entire treatment or if they won't.
 
 Link for the streamlit app: <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>
