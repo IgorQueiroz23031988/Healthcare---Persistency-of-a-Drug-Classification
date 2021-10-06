@@ -1,9 +1,9 @@
-# Healthcare - Persistency of a DRug - Classification
+# Healthcare - Persistency of a Drug - Classification
 Machine Learning classification model to classify if futures patients will take the drugs prescribed by the doctor during the entire treatment or if they won't.
 
 Link for the streamlit app: <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>
 
-![alt text](https://github.com/IgorQueiroz23031988/House-Sales-Data-Anaysis-and-Insights/blob/main/HOUSE%E2%80%99S%20BUY%20AND%20SALES%20DATA%20ANALYSIS%20AND%20INSIGHTS.png)
+![alt text](https://github.com/IgorQueiroz23031988/Healthcare-Persistency-of-a-Drug-Classification/blob/main/bussines%20presentation/Healthcare%20Persistency%20of%20a%20Drug%20Classification.mp4)
 
 ## 1. Business Description/Problem.
 
@@ -95,9 +95,9 @@ Solution adopted to generate business insights and create a ML classification mo
 
          3º - Hypothesis Validation.
 
-         4º - Hypothesis Validation.  
+         4º - Summary of Hypothesis.  
 
-         5º - Hypothesis Validation.
+         5º - Multivariate Analysis – Numerical Variables.
 
 * Data Description;
 
@@ -193,17 +193,61 @@ __Hypothesis 14:__ Patients that presents more than 3 different types of comorbi
 __True:__ There are 821 more persistent patients that presents more than 3 different types of comorbidity than persistent patients that do not presents more than 3 different types of comorbidity.<br/><br/>
 
 
-## 6. Financial Results.
+## 6. Hypothesis and Insights Conclusion.
 
- House Rocket Company would have a profit of almost 19 percent, which are more than $771 million, if applies this data analytics method.
+ Based on all the Insights created from this dataset, patients who have a higher probability of persisting of a drug for the entire treatment, have the following characteristics:
+ 
+* Female;
 
-## 7. Conclusion.
+* Patients older than 65 years;
 
-In conclusion, it is possible to identify that the application of data analytics project at dataset from House Rocket Company was very successful, providing a huge profit opportunity based on which houses to buy and when to sell.
+* Caucasian non-Hispanic Patients;
 
-## 8. Next Steps.
+* Patients mapped to IDN;
 
-Other project that can be made with this dataset is the exploration data analyses, which identify the best’s attributes in order to apply machine learning algorithms, with the objective to predict the price of futures houses to buy.
+* Patients that received the drug prescription from General Practitioner Specialty;
+
+* Patients who did not use Glucocorticoid and had Fragility Fracture;
+
+* Patients who had no Dexa Scan;
+
+* Patient’s adherent for therapies and that used drugs before the therapy.
+
+## 7. Business Performance.
+
+* Accuracy 
+
+With the accuracy of the ML model it is possible to find out the exact number of correct predictions made by the same model.
+
+From 774 values, the ML model was able to correctly predict 689 values of the attribute 'Persistency_Flag'.
+
+* Confusion Matrix & Classification Report
+
+With the Confusion Matrix it is possible to verify how many values of the attribute 'Persistency_Flag' were correctly and erroneously classified in each class, in other words, how many values equal to Persistent (1) and equal to Non-Persistent (0) were correctly classified, and how many of each class were not.
+
+According to the classification report and the confusion matrix:
+
+358 values that are originally class Non-Persistent (0) have been correctly classified as Non-Persistent, which represents 95% of the Non-Persistent class;
+
+331 values that are originally class Persistent (1) have been correctly classified as Persistent, which represents 84% of the Persistent class;
+
+20 values that are originally class Non-Persistent (0) have been incorrectly classified as Persistent;
+
+65 values that are originally class Persistent (1) have been incorrectly classified as Non-Persistent.
+
+## 8. Conclusion.
+
+With the ML classification model, trained with the algorithm Support Vector MAchine, it is possible classify if futures patients will take the drugs prescribed by the doctor during the entire treatment or if they won't, with an accuracy higher than 85%.
+
+This task is done at the WebApp "Persistency of a Drug Classification ML WebApp", that is possible to find it at <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>.
+
+## 9. Next Steps.
+
+* Business User Model Workshop;
+* 
+* Collect Usability Feedback;
+* 
+* Increase Model Accuracy by 10%.
 
 
 
