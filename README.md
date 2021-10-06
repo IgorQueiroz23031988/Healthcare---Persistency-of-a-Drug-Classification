@@ -37,14 +37,14 @@ Here I'm describing the columns in detail:
 
 Patient Details:
 
-•	Patient ID: Unique ID of each patient;
-•	Persistency_Flag: Flag indicating if a patient was persistent or not;
-•	Age: Age of the patient during their therapy;
-•	Race: Race of the patient from the patient table;
-•	Region: Region of the patient from the patient table;
-•	Ethnicity: Ethnicity of the patient from the patient table;
-•	Gender: Gender of the patient from the patient table;
-•	IDN Indicator: Flag indicating patients mapped to IDN;
+*	Patient ID: Unique ID of each patient;
+*	Persistency_Flag: Flag indicating if a patient was persistent or not;
+*	Age: Age of the patient during their therapy;
+*	Race: Race of the patient from the patient table;
+*	Region: Region of the patient from the patient table;
+*	Ethnicity: Ethnicity of the patient from the patient table;
+*	Gender: Gender of the patient from the patient table;
+*	IDN Indicator: Flag indicating patients mapped to IDN;
 
 Provider Attributes:
 •	NTM - Physician Specialty: Specialty of the HCP that prescribed the NTM Rx;
