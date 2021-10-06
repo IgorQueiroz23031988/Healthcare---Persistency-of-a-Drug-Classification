@@ -79,9 +79,9 @@ Solution adopted to generate business insights and create a ML classification mo
 
 * Data Description;
 
-1º - Data Dimensions.
+   1º - Data Dimensions.
  
-2º - Descriptive Statistics. 
+   2º - Descriptive Statistics. 
 
 * Mind Map Hypothesis;
 
