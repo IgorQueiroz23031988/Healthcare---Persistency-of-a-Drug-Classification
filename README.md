@@ -123,43 +123,72 @@ Solution adopted to generate business insights and create a ML classification mo
  
 ## 5. Top 08 Data Insights.
 
-__Hypothesis 01:__ Houses which has water view are 20% more expensive, in general.
+__Hypothesis 01:__ Female patients are more persistent of a drug than male.
 
-__False:__ Houses with water view are 212.57668803323867 percent more expensive.<br/><br/>
-
-
-__Hypothesis 02:__ Houses that was built before 1955 are 50% cheaper, in general.
-
-__False:__ Houses that was built before 1955 are -0.7757205525248732 percent cheaper.<br/><br/>
+__True:__ There are 1135 more persistent female patients than male patients..<br/><br/>
 
 
-__Hypothesis 03:__ Houses without basement are 40% bigger them house with basement, related to total area (sqft_lot). 
+__Hypothesis 02:__ Patients from Northeast are more persistent of a drug than patients from South.
 
-__False:__ Houses without basement are 22.483151526642544 percent bigger them houses with basement.<br/><br/>
-
-
-__Hypothesis 04:__ The growth of house prices YoY (Year over Year) (May 2014 compared to May 2015) is 10%, in general. 
-
-__False:__ The total houses price YoY (Year over Year) suffered a decrease of -62.79177358882806 percent.<br/><br/>
+__False:__ Comparing patients from the Northeast and South, there are 396 more persistent patients from the South than from the Northeast.<br/><br/>
 
 
-__Hypothesis 05:__ Houses with 3 bathrooms have a growth MoM (month over Month) of 15%.
+__Hypothesis 03:__ Patients over 65 years of age are more persistent of a drug than patients 65 years of age or younger. 
 
-__False:__ The total houses price MoM (month over Month) suffered a decrease of -9.953899240174858 percent.<br/><br/>
-
-
-__Hypothesis 06:__ Houses with number of bedrooms above 8 have a number of bathrooms 40% higher than houses with number of bedrooms between 5 and 8, and 94% higher than houses with number of bedrooms between 1 and, 4 on average.
-
-__True:__ Houses with number of bedrooms above 8 have a number of bathrooms 39.9514563106796 percent higher than houses with number of bedrooms between 5 and 8, and 94.48676155875182 higher than houses with number of bedrooms between 1 and 4.<br/><br/>
-
-__Hypothesis 07:__ Houses with 7 bedrooms has the total area (sqft_lot) bigger between 132 to 320 percent than houses with 8 to 11 bedrooms, on average.
-
-__True:__ Houses with 7 bedrooms has the total area (sqft_lot) bigger between 132.29431644290653 and 320.17243208828523 percent than houses with 8 to 11 bedrooms.<br/><br/>
+__True:__ There are 641 more persistent patients over 65 years of age than patients younger than 65 years of age.<br/><br/>
 
 
-__Hypothesis 08:__ Renovated Houses have living rooms 12% bigger than houses not renovated, on average.
+__Hypothesis 04:__ Caucasian patients, not Hispanic are more persistent of a drug than patients with different race and ethnicity.
 
-__True:__ Renovated Houses have living rooms 12.132344286788795 percent bigger than houses not renovated, on average.
+__True:__ There are 993 more Caucasian & not Hispanic persistent patients than patients from different race and ethnicity.<br/><br/>
+
+
+__Hypothesis 05:__ Patients mapped to IDN are more persistent of a drug than patient not mapped..
+
+__True:__ There are 797 more persistent patients mapped to IDN than persistent patients not mapped to IDN.<br/><br/>
+
+
+__Hypothesis 06:__ Patients that received the drug prescription from General Practitioner Specialty are less persistent of a drug than patients that received the drug prescription from others Specialty.
+
+__False:__ There are 301 more persistent patients that received the drug prescription from others Specialty than persistent patients that received the drug prescription from General Practitioner Specialty.<br/><br/>
+
+__Hypothesis 07:__ Patients that used Glucocorticoid and had a Fragility Fracture, before and during the therapy, are more persistent of a drug than patients that not used Glucocorticoid either had a Fragility Fracture, in any situation.
+
+__False:__ There are 531 more persistent patients that did not use Glucocorticoid neither had a Fragility Fracture than persistent patients that used Glucocorticoid and had a Fragility Fracture.<br/><br/>
+
+
+__Hypothesis 08:__ Patients that had Dexa Scan more than 0 times are more persistent of a drug than patients that had Dexa Scan 0 times.
+
+__False:__ There are 185 more persistent patients that had Dexa Scan more than 0 times than persistent patients that that had Dexa Scan 0 times.
+
+__Hypothesis 09:__ Patients that presents VLR_LR as Risk Segment during the therapy and presents Unknown value in Risk Segment after the therapy are more persistent of a drug than patients that present other types of Risk Segment and Change in Risk Segment.
+
+__False:__ There are 641 more persistent patients that presents other types of Risk Segment and Change on Risk Segment than persistent patients that presents VLR_LR as Risk Segment during the therapy and presents Unknown value in Risk Segment after the therapy .<br/><br/>
+
+
+__Hypothesis 10:__ Patients that presents T Socre of >-2.5 before the therapy and presents No Change T Score status after the therapy are less persistent of a drug than patients that presents other types of T Score and T Score status.
+
+__True:__ There are 463 more persistent patients that presents other types of T Score and Change on T Score than persistent patients that presents T Score of >-2.5 before the therapy and presents No Change T Score status after the therapy.<br/><br/>
+
+
+__Hypothesis 11:__ Patients that presents the amount of risk factor higher than 1 are more persistent of a drug than patients that presents the amount of risk factor lower than 1.
+
+__False:__ There are 277 more persistent patients that do not presents the amount of risk factor higher than 1 than persistent patients that presents the amount of risk factor higher than 1.<br/><br/>
+
+
+__Hypothesis 12:__ Patients adherent for therapies and that used drugs during the therapy are more persistent of a drug than patients in different situations related to both attributes.
+
+__True:__ There are 189 more persistent patients adherent for therapies and that used drugs before the therapy than persistent are not adherent for therapies and that did not use drugs before the therapy.<br/><br/>
+
+
+__Hypothesis 13:__ Patients that used more than 2 concomitancy drugs before the therapy are less persistent of a drug than patients that used more than 2 concomitancy drugs before the therapy.
+
+__False:__ There are 91 more persistent patients that used more than 2 concomitancy drugs before the therapy persistent patients that used less than 3 concomitancy drugs before the therapy.<br/><br/>
+
+__Hypothesis 14:__ Patients that presents more than 3 different types of comorbidity are more persistent of a drug than patients that present less than 3 different types of comorbidity.
+
+__True:__ There are 821 more persistent patients that presents more than 3 different types of comorbidity than persistent patients that do not presents more than 3 different types of comorbidity.<br/><br/>
+
 
 ## 6. Financial Results.
 
