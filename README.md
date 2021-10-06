@@ -3,7 +3,7 @@ Machine Learning classification model to classify if futures patients will take 
 
 Link for the streamlit app: <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>
 
-![alt text](https://github.com/IgorQueiroz23031988/House-Sales-Data-Anaysis-and-Insights/blob/main/HOUSE%E2%80%99S%20BUY%20AND%20SALES%20DATA%20ANALYSIS%20AND%20INSIGHTS.png)
+![alt text](https://github.com/IgorQueiroz23031988/Healthcare-Persistency-of-a-Drug-Classification/blob/main/bussines%20presentation/Healthcare%20Persistency%20of%20a%20Drug%20Classification.mp4)
 
 ## 1. Business Description/Problem.
 
