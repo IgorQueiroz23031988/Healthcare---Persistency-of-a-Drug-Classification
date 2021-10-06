@@ -71,21 +71,7 @@ Disease/Treatment Factors:
 *	NTM - Risk Factors: Risk Factors that the patient is falling into. For chronic Risk Factors complete lookback to be applied and for non-chronic Risk Factors, one year lookback from the date of first OP Rx;
 *	NTM - Comorbidity: Comorbidities are divided into two main categories - Acute and chronic, based on the ICD codes. For chronic disease we are taking complete look back from the first Rx date of NTM therapy and for acute diseases, time period before the NTM OP Rx with one year lookback has been applied;
 *	NTM - Concomitancy: Concomitant drugs recorded prior to starting with a therapy (within 365 days prior from first rxdate)
-Adherence: Adherence for the therapies.
-
-
-## 3. Business Assumptions.
-
-After carefully research, some assumptions are taken based on several information obtained at website <https://www.kaggle.com/harlfoxem/housesalesprediction/discussion>.
- 
-Those assumptions lead to identify possible outliers’ existent on dataset. Such as:
- 
-*	Any house which contains no bathrooms or bedrooms is considered outlier, therefore it is excluded.
-*	Any house which the number of bedrooms is higher than 11 is considered outlier, therefore it is excluded.
-
-Furthermore, some assumptions were made to identify the profit range by selling houses.
- 
-*	According the website: <https://www.prnewswire.com/news-releases/average-us-home-seller-profits-hit-65-500-in-2019--another-new-high-300991828.html>, the minimal profit made by selling houses In US is 10%, the maximum is 45%. This profit range flouts due the houses characteristics, such as: location, size, number of bedrooms and others. 
+Adherence: Adherence for the therapies. 
 
 ## 4. Solution Strategy.
 
@@ -95,38 +81,45 @@ Solution adopted to generate business insights and create a ML classification mo
 
 1º - Data Dimensions.
  
-2º - Descriptive Statistics.   
+2º - Descriptive Statistics. 
+
+* Mind Map Hypothesis;
+
+* Hypothesis Creation;
+
+* Exploratory Data Analysis (EDA);
+
+1º - Target Variable analysis.
  
-3º - Find the house’s price median by region.
+2º - Numerical Variable analysis.
  
-4º - Recommend that the houses with prices inferior to the median value should be bought, and the condition is minimal 3.  
+3º - Hypothesis Validation.
  
-5º - Filter those houses, that should be bought, by size, number of floors, number of bedrooms, and number of bathrooms, in order to identify the level of recommendation of each house.<br/><br/>
+4º - Hypothesis Validation.  
  
+5º - Hypothesis Validation.
+
+* Data Description;
+
+* Machine Learning Models Performance;
+
+1º - Extra Trees Classifier.
  
-* __Second part:__ When to sell the houses and for how much?
+2º - LGBM Classifier.
+
+3º - Stochastic Gradient Descent.
  
-__1º__ - After the company buys the houses, the data is grouped by region and seasons.
+4º - Random Forest.
  
-__2º__ - Inside each region and seasons, it is calculated the median price.   
+5º - Support Vector Machine.
+
+* Business Performance;
+
+1º - Accuracy.
  
-__3º__ - If the buy price is higher than median price plus season and recommendation to buy is regular, than the sell price will be equal the buy price plus 10 %. 
- 
-   If the buy price is higher than median price plus season and recommendation to buy is high, than the sell price will be equal the buy price plus 12.5 %.
- 
-   If the buy price is higher than median price plus season and recommendation to buy is very high, than the sell price will be equal the buy price plus 15 %.
- 
-   If the buy price is lower than median price plus season and recommendation to buy is regular, than the sell price will be equal the buy price plus 30 %.
- 
-   If the buy price is lower than median price plus season and recommendation to buy is high, than the sell price will be equal the buy price plus 37.5 %.
- 
-   If the buy price is lower than median price plus season and recommendation to buy is very high, than the sell price will be equal the buy price plus 45 %.
- 
-__4º__ - It is specified the best moment to sell based on the profit by season.
- 
-__5º__ - It is specified the best moment to sell based on the profit by season and recommendation to buy in general and individual houses.
- 
-__6º__ - It is specified the total profit by buying and selling houses.
+2º - Confusion Matrix & Classification Report.
+
+* Persistency of a Drug Classification ML WebApp.
  
 ## 5. Top 08 Data Insights.
 
