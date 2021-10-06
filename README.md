@@ -89,14 +89,13 @@ Furthermore, some assumptions were made to identify the profit range by selling 
 
 ## 4. Solution Strategy.
 
-As the company’s CEO wants answer for two different questions, the solution strategy is divided into 2 parts:<br/><br/>
+Solution adopted to generate business insights and create a ML classification model to solve the proposed problem. This solution includes:
 
+* Data Description;
 
-* __First part:__ Which houses to buy?
+1º - Data Dimensions.
  
-1º - Collect data from kaggle’s website.
- 
-2º - Group them by region (zipcode), due this attribute is extremely influential on the house’s price.   
+2º - Descriptive Statistics.   
  
 3º - Find the house’s price median by region.
  
