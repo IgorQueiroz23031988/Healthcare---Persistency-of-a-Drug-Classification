@@ -32,9 +32,11 @@ The tools used for this project are: Python 3.8, Pycharm, Jupyter Notebook, Stre
 There is 1 dataset provided: <https://www.kaggle.com/harlfoxem/housesalesprediction>.
 
  Variables Description:
+ 
 Here I'm describing the columns in detail:
 
 Patient Details:
+
 •	Patient ID: Unique ID of each patient;
 •	Persistency_Flag: Flag indicating if a patient was persistent or not;
 •	Age: Age of the patient during their therapy;
