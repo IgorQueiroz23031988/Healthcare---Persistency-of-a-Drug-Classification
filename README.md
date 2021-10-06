@@ -1,27 +1,33 @@
 # Healthcare - Persistency of a DRug - Classification
 Machine Learning classification model to classify if futures patients will take the drugs prescribed by the doctor during the entire treatment or if they won't.
 
-Link for the streamlit app: <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py/>
+Link for the streamlit app: <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>
 
 ![alt text](https://github.com/IgorQueiroz23031988/House-Sales-Data-Anaysis-and-Insights/blob/main/HOUSE%E2%80%99S%20BUY%20AND%20SALES%20DATA%20ANALYSIS%20AND%20INSIGHTS.png)
 
-## 1. Business Understanding/Problem.
+## 1. Business Description/Problem.
 
-House Rocket is a company which main porpoise is obtains profit buying and selling houses localized at King County, state of Seattle, USA.
+One of the challenges for all Pharmaceutical companies is to understand the persistency of drug as per the physician prescription. To solve this problem ABC pharma company approached an analytics company to automate this process of identification.
 
- The object of this project is providing answer of the main questions made by the company’s CEO, which are:
- 
-*	Which houses the company should buy, and for which price?
-*	Once the houses have been bought, what is the best moment to sell them, and for how much?
+ With an objective to gather insights on the factors that are impacting the persistency, it is necessary to build a classification for the given dataset, using the variable ‘Persistency_Flag’ as target variable and other attributes as prediction variables.
 
- The answer for those questions is presented in two different methods:
- 
-*	 Reports recommending which houses to buy, for how much and when to sell them.
-*	A website created by the data analyst showing a table of the most interested houses to buy and other table with information about house prices to sell and when to them. Also a collection of hypotheses and a dashboard is presented in order to auxiliary the CEO decisions.
- 
+## 2. Business Understanding.
+
+ABC it is a private pharma company. Due to the problem to the persistency of drug as per the physician prescription, a data science project is applied to predict the classification of ‘Persistency_Flag’ variable. In other words, based on the previously patients characteristics it is possible predict if futures patients will use the drugs during the role treatment or if they won’t. 
+
+The object of this project is providing answer of the main questions made by the company’s CEO, which are:
+
+*	What is the ‘Persistency_Flag’ classification for future patients?
+
+The answer for those questions is presented in two different methods:
+
+*	A webapp with all necessary prediction attributes in order to predict the classification of the ‘Persistency_Flag’ for future patients. 
+
+*	A dashboard with several hypotheses and insights to help the company CEO with future decisions.
+
 The tools used for this project are: Python 3.8, Pycharm, Jupyter Notebook, Streamlit and Heroku.
 
-## 2. Data Understanding.
+## 3. Data Understanding.
 
 The data collected to put this project into operation is found at website: <https://www.kaggle.com/harlfoxem/housesalesprediction>.
 
