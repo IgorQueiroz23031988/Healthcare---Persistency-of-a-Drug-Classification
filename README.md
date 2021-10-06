@@ -95,9 +95,9 @@ Solution adopted to generate business insights and create a ML classification mo
 
          3º - Hypothesis Validation.
 
-         4º - Hypothesis Validation.  
+         4º - Summary of Hypothesis.  
 
-         5º - Hypothesis Validation.
+         5º - Multivariate Analysis – Numerical Variables.
 
 * Data Description;
 
