@@ -235,9 +235,19 @@ According to the classification report and the confusion matrix:
 
 65 values that are originally class Persistent (1) have been incorrectly classified as Non-Persistent.
 
-## 8. Next Steps.
+## 8. Conclusion.
 
-Other project that can be made with this dataset is the exploration data analyses, which identify the best’s attributes in order to apply machine learning algorithms, with the objective to predict the price of futures houses to buy.
+With the ML classification model, trained with the algorithm Support Vector MAchine, it is possible classify if futures patients will take the drugs prescribed by the doctor during the entire treatment or if they won't, with an accuracy higher than 85%.
+
+This task is done at the WebApp "Persistency of a Drug Classification ML WebApp", that is possible to find it at <https://share.streamlit.io/igorqueiroz23031988/healthcare-persistency-of-a-drug-classification/main/deploy2.py>.
+
+## 9. Next Steps.
+
+* Business User Model Workshop;
+* 
+* Collect Usability Feedback;
+* 
+* Increase Model Accuracy by 10%.
 
 
 
