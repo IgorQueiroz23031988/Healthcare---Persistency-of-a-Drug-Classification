@@ -152,6 +152,7 @@ __Hypothesis 06:__ Patients that received the drug prescription from General Pra
 
 __False:__ There are 301 more persistent patients that received the drug prescription from others Specialty than persistent patients that received the drug prescription from General Practitioner Specialty.<br/><br/>
 
+
 __Hypothesis 07:__ Patients that used Glucocorticoid and had a Fragility Fracture, before and during the therapy, are more persistent of a drug than patients that not used Glucocorticoid either had a Fragility Fracture, in any situation.
 
 __False:__ There are 531 more persistent patients that did not use Glucocorticoid neither had a Fragility Fracture than persistent patients that used Glucocorticoid and had a Fragility Fracture.<br/><br/>
@@ -160,6 +161,7 @@ __False:__ There are 531 more persistent patients that did not use Glucocorticoi
 __Hypothesis 08:__ Patients that had Dexa Scan more than 0 times are more persistent of a drug than patients that had Dexa Scan 0 times.
 
 __False:__ There are 185 more persistent patients that had Dexa Scan more than 0 times than persistent patients that that had Dexa Scan 0 times.
+
 
 __Hypothesis 09:__ Patients that presents VLR_LR as Risk Segment during the therapy and presents Unknown value in Risk Segment after the therapy are more persistent of a drug than patients that present other types of Risk Segment and Change in Risk Segment.
 
@@ -184,6 +186,7 @@ __True:__ There are 189 more persistent patients adherent for therapies and that
 __Hypothesis 13:__ Patients that used more than 2 concomitancy drugs before the therapy are less persistent of a drug than patients that used more than 2 concomitancy drugs before the therapy.
 
 __False:__ There are 91 more persistent patients that used more than 2 concomitancy drugs before the therapy persistent patients that used less than 3 concomitancy drugs before the therapy.<br/><br/>
+
 
 __Hypothesis 14:__ Patients that presents more than 3 different types of comorbidity are more persistent of a drug than patients that present less than 3 different types of comorbidity.
 
