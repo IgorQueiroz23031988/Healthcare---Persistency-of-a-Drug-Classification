@@ -193,9 +193,25 @@ __Hypothesis 14:__ Patients that presents more than 3 different types of comorbi
 __True:__ There are 821 more persistent patients that presents more than 3 different types of comorbidity than persistent patients that do not presents more than 3 different types of comorbidity.<br/><br/>
 
 
-## 6. Financial Results.
+## 6. Hypothesis and Insights Conclusion.
 
- House Rocket Company would have a profit of almost 19 percent, which are more than $771 million, if applies this data analytics method.
+ Based on all the Insights created from this dataset, patients who have a higher probability of persisting of a drug for the entire treatment, have the following characteristics:
+ 
+* Female;
+
+* Patients older than 65 years;
+
+* Caucasian non-Hispanic Patients;
+
+* Patients mapped to IDN;
+
+* Patients that received the drug prescription from General Practitioner Specialty;
+
+* Patients who did not use Glucocorticoid and had Fragility Fracture;
+
+* Patients who had no Dexa Scan;
+
+* Patient’s adherent for therapies and that used drugs before the therapy.
 
 ## 7. Conclusion.
 
