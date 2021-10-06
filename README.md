@@ -79,9 +79,9 @@ Solution adopted to generate business insights and create a ML classification mo
 
 * Data Description;
 
-   1º - Data Dimensions.
+     1º - Data Dimensions.
  
-   2º - Descriptive Statistics. 
+     2º - Descriptive Statistics. 
 
 * Mind Map Hypothesis;
 
@@ -89,35 +89,35 @@ Solution adopted to generate business insights and create a ML classification mo
 
 * Exploratory Data Analysis (EDA);
 
-1º - Target Variable analysis.
- 
-2º - Numerical Variable analysis.
- 
-3º - Hypothesis Validation.
- 
-4º - Hypothesis Validation.  
- 
-5º - Hypothesis Validation.
+     1º - Target Variable analysis.
+
+     2º - Numerical Variable analysis.
+
+     3º - Hypothesis Validation.
+
+     4º - Hypothesis Validation.  
+
+     5º - Hypothesis Validation.
 
 * Data Description;
 
 * Machine Learning Models Performance;
 
-1º - Extra Trees Classifier.
- 
-2º - LGBM Classifier.
+     1º - Extra Trees Classifier.
 
-3º - Stochastic Gradient Descent.
- 
-4º - Random Forest.
- 
-5º - Support Vector Machine.
+     2º - LGBM Classifier.
+
+     3º - Stochastic Gradient Descent.
+
+     4º - Random Forest.
+
+     5º - Support Vector Machine.
 
 * Business Performance;
 
-1º - Accuracy.
- 
-2º - Confusion Matrix & Classification Report.
+     1º - Accuracy.
+
+     2º - Confusion Matrix & Classification Report.
 
 * Persistency of a Drug Classification ML WebApp.
  
