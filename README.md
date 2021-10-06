@@ -160,7 +160,7 @@ __False:__ There are 531 more persistent patients that did not use Glucocorticoi
 
 __Hypothesis 08:__ Patients that had Dexa Scan more than 0 times are more persistent of a drug than patients that had Dexa Scan 0 times.
 
-__False:__ There are 185 more persistent patients that had Dexa Scan more than 0 times than persistent patients that that had Dexa Scan 0 times.
+__False:__ There are 185 more persistent patients that had Dexa Scan more than 0 times than persistent patients that that had Dexa Scan 0 times.<br/><br/>
 
 
 __Hypothesis 09:__ Patients that presents VLR_LR as Risk Segment during the therapy and presents Unknown value in Risk Segment after the therapy are more persistent of a drug than patients that present other types of Risk Segment and Change in Risk Segment.
