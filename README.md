@@ -213,9 +213,27 @@ __True:__ There are 821 more persistent patients that presents more than 3 diffe
 
 * Patient’s adherent for therapies and that used drugs before the therapy.
 
-## 7. Conclusion.
+## 7. Business Performance.
 
-In conclusion, it is possible to identify that the application of data analytics project at dataset from House Rocket Company was very successful, providing a huge profit opportunity based on which houses to buy and when to sell.
+* Accuracy 
+
+With the accuracy of the ML model it is possible to find out the exact number of correct predictions made by the same model.
+
+From 774 values, the ML model was able to correctly predict 689 values of the attribute 'Persistency_Flag'.
+
+* Confusion Matrix & Classification Report
+
+With the Confusion Matrix it is possible to verify how many values of the attribute 'Persistency_Flag' were correctly and erroneously classified in each class, in other words, how many values equal to Persistent (1) and equal to Non-Persistent (0) were correctly classified, and how many of each class were not.
+
+According to the classification report and the confusion matrix:
+
+358 values that are originally class Non-Persistent (0) have been correctly classified as Non-Persistent, which represents 95% of the Non-Persistent class;
+
+331 values that are originally class Persistent (1) have been correctly classified as Persistent, which represents 84% of the Persistent class;
+
+20 values that are originally class Non-Persistent (0) have been incorrectly classified as Persistent;
+
+65 values that are originally class Persistent (1) have been incorrectly classified as Non-Persistent.
 
 ## 8. Next Steps.
 
